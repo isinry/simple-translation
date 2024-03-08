@@ -5,7 +5,7 @@ services:
       context: ..
       dockerfile: Dockerfile
     environment:
-      - API_URL=https://deepl.tr1ck.cn/translate
+      # - API_URL=https://deepl.tr1ck.cn/translate
       - SITE_DOMAIN=http://front
     ports:
       - 5001:5000
