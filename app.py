@@ -70,7 +70,7 @@ def translate():
     }
 
     response = requests.request("POST", api_url, headers=headers, data=payload)
-
+    print("翻译结果：" + response.text)
     return response.json()
 
 
